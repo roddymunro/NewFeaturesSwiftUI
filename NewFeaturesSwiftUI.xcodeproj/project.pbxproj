@@ -11,6 +11,12 @@
 		79DD419F25D8A70A0073944F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD419E25D8A70A0073944F /* ContentView.swift */; };
 		79DD41A125D8A70C0073944F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DD41A025D8A70C0073944F /* Assets.xcassets */; };
 		79DD41A425D8A70C0073944F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DD41A325D8A70C0073944F /* Preview Assets.xcassets */; };
+		79DD41AD25D8A7170073944F /* NewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41AC25D8A7170073944F /* NewFeaturesView.swift */; };
+		79DD41B025D8A7250073944F /* NewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41AF25D8A7240073944F /* NewFeature.swift */; };
+		79DD41B325D8A73B0073944F /* Text+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41B225D8A73B0073944F /* Text+ViewModifier.swift */; };
+		79DD41B625D8A7630073944F /* NewFeatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41B525D8A7630073944F /* NewFeatureRow.swift */; };
+		79DD41B925D8A7A60073944F /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41B825D8A7A60073944F /* PrimaryButtonStyle.swift */; };
+		79DD41BC25D8A7F70073944F /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD41BB25D8A7F70073944F /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		79DD41A025D8A70C0073944F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DD41A325D8A70C0073944F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79DD41A525D8A70C0073944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DD41AC25D8A7170073944F /* NewFeaturesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeaturesView.swift; sourceTree = "<group>"; };
+		79DD41AF25D8A7240073944F /* NewFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeature.swift; sourceTree = "<group>"; };
+		79DD41B225D8A73B0073944F /* Text+ViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text+ViewModifier.swift"; sourceTree = "<group>"; };
+		79DD41B525D8A7630073944F /* NewFeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureRow.swift; sourceTree = "<group>"; };
+		79DD41B825D8A7A60073944F /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		79DD41BB25D8A7F70073944F /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				79DD419C25D8A70A0073944F /* NewFeaturesSwiftUIApp.swift */,
 				79DD419E25D8A70A0073944F /* ContentView.swift */,
+				79DD41AC25D8A7170073944F /* NewFeaturesView.swift */,
+				79DD41B525D8A7630073944F /* NewFeatureRow.swift */,
+				79DD41AF25D8A7240073944F /* NewFeature.swift */,
+				79DD41B825D8A7A60073944F /* PrimaryButtonStyle.swift */,
+				79DD41B225D8A73B0073944F /* Text+ViewModifier.swift */,
+				79DD41BB25D8A7F70073944F /* View+Ext.swift */,
 				79DD41A025D8A70C0073944F /* Assets.xcassets */,
 				79DD41A525D8A70C0073944F /* Info.plist */,
 				79DD41A225D8A70C0073944F /* Preview Content */,
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DD41BC25D8A7F70073944F /* View+Ext.swift in Sources */,
+				79DD41B925D8A7A60073944F /* PrimaryButtonStyle.swift in Sources */,
+				79DD41AD25D8A7170073944F /* NewFeaturesView.swift in Sources */,
+				79DD41B325D8A73B0073944F /* Text+ViewModifier.swift in Sources */,
+				79DD41B025D8A7250073944F /* NewFeature.swift in Sources */,
 				79DD419F25D8A70A0073944F /* ContentView.swift in Sources */,
+				79DD41B625D8A7630073944F /* NewFeatureRow.swift in Sources */,
 				79DD419D25D8A70A0073944F /* NewFeaturesSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
